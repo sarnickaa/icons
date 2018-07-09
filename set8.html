@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="StyleSheet" title="Default" href="format.css" type="text/css"/>
+<style>
+</style>
+</head>
+
+
+<body>
+
+
+<nav id="navbar">
+	<ul class="navbar" style="list-style: none;">
+		<li><a href="index.html">Set 1</a></li><!--world-->
+		<li><a href="set2.html">Set 2</a></li><!--culture-->
+		<li><a href="set3.html">Set 3</a></li><!--science&health-->
+		<li><a href="set4.html">Set 4</a></li><!--identities-->
+		<li><a href="set5.html">Set 5</a></li><!--energy&environment-->
+		<li><a href="set6.html">Set 6</a></li><!--bigidea-->
+		<li><a href="set7.html">Set 7</a></li><!--technology-->
+		<li><a href="set8.html" class="selected">Set 8</a></li><!--business&finance-->
+		<li><a href="set9.html">Set 9</a></li><!--firstperson-->
+		<li><a href="set10.html">Set 10</a></li><!--video-->
+		<li><a href="set11.html">Set 11</a></li><!--podcast-->
+	</ul>
+</nav>
+
+<p class="flip" onclick="myFunction()">REVEAL</p>
+
+<div id="panel" style="display: none;">
+  <p>Business & Finance</p>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("panel");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+
+<div id="imagefl">
+<img src="images/fl9.svg" width="100px">
+<img src="images/fly7.svg" width="100px">
+</div>
+<div id="imageg">
+<img src="images/gb1.svg" height="50px">
+<img src="images/gb2.svg" height="50px">
+<img src="images/gb3.svg" height="50px">
+</div>
+<div id="imagem">
+<img src="images/mb1.svg" width="150px" height="150px">
+<img src="images/mb2.svg" width="150px" height="150px">
+<img src="images/mb3.svg" width="150px" height="150px">
+</div>
+
+
+
+
+</body>
+</html>
